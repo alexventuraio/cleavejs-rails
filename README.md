@@ -1,28 +1,37 @@
 # Cleavejs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cleavejs`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+To have a simpler way to include the great features from [Cleave.js](https://nosir.github.io/cleave.js/) to your Rails app and have `input` texts masked with different formats.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+**1. Add this line to your application's Gemfile:**
 
 ```ruby
 gem 'cleavejs'
 ```
 
-And then execute:
+**2. And then execute:**
 
     $ bundle
 
-Or install it yourself as:
+**Or install it yourself as:**
 
     $ gem install cleavejs
+
+**3. Add the following to your `app/assets/javascripts/application.js`:**
+```javascript
+//= require cleave
+```
 
 ## Usage
 
 TODO: Write usage instructions here
+
+## Plugin Documentation
+
+- https://nosir.github.io/cleave.js/
+- https://github.com/nosir/cleave.js
+- https://github.com/nosir/cleave.js/blob/master/doc/js-api.md
 
 ## Development
 
