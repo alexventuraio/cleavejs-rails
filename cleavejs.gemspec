@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["venturacontreras@icloud.com"]
 
   spec.summary       = %q{Integrate Cleave.js plugin into the Rails asset pipeline}
-  spec.description   = spec.summary
+  spec.description   = %q{This gem makes it easier to use the benefits from the Cleave.js library to mask/format input text elements in Rails.}
   spec.homepage      = "https://github.com/AlexVentura/cleavejs-rails"
   spec.license       = "MIT"
 
