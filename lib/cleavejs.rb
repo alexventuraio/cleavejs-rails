@@ -1,5 +1,6 @@
 require "cleavejs/version"
 
 module Cleavejs
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end
