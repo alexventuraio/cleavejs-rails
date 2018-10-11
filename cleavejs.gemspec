@@ -10,18 +10,18 @@ Gem::Specification.new do |spec|
   spec.email         = ["venturacontreras@icloud.com"]
 
   spec.summary       = %q{Integrate Cleave.js plugin into the Rails asset pipeline}
-  spec.description   = spec.summary
+  spec.description   = %q{This gem makes it easier to use the benefits from the Cleave.js library to mask/format input text elements in Rails.}
   spec.homepage      = "https://github.com/AlexVentura/cleavejs-rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
+  # if spec.respond_to?(:metadata)
+  #   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  # else
+  #   raise "RubyGems 2.0 or newer is required to protect against " \
+  #     "public gem pushes."
+  # end
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
