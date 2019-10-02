@@ -2,6 +2,8 @@
 
 To have a simpler way to include the great features from [Cleave.js](https://nosir.github.io/cleave.js/) to your Rails app and have `input` texts masked with different formats.
 
+Using the latest version released of [Cleave.js](https://github.com/nosir/cleave.js/releases) which is is at version `1.5.3`.
+
 ## Installation
 
 **1. Add this line to your application's Gemfile:**
@@ -19,6 +21,7 @@ gem 'cleavejs'
     $ gem install cleavejs
 
 **3. Add the following to your `app/assets/javascripts/application.js`:**
+
 ```javascript
 //= require cleave
 ```
